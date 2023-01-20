@@ -1,0 +1,842 @@
+[
+    {
+        "id": 101,
+        "nombre_sala": "sala 101",
+        "descripcion_sala": "sin descripcion",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T10:42:19.000000Z",
+        "updated_at": "2022-11-05T10:42:21.000000Z"
+    },
+    {
+        "id": 102,
+        "nombre_sala": "sala 102",
+        "descripcion_sala": "sin descipcion",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T10:46:05.000000Z",
+        "updated_at": "2022-11-05T10:46:06.000000Z"
+    },
+    {
+        "id": 103,
+        "nombre_sala": "sala 103",
+        "descripcion_sala": "sin descripcion",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T10:48:19.000000Z",
+        "updated_at": "2022-11-05T10:48:20.000000Z"
+    },
+    {
+        "id": 104,
+        "nombre_sala": "sala 104",
+        "descripcion_sala": "sin descripcion",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T10:12:03.000000Z",
+        "updated_at": "2022-11-05T10:12:03.000000Z"
+    },
+    {
+        "id": 105,
+        "nombre_sala": "sala 105",
+        "descripcion_sala": "sin descripcion",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T14:24:42.000000Z",
+        "updated_at": "2022-11-05T14:24:43.000000Z"
+    },
+    {
+        "id": 106,
+        "nombre_sala": "sala 106",
+        "descripcion_sala": "jm",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:22:47.000000Z",
+        "updated_at": "2022-11-05T16:22:48.000000Z"
+    },
+    {
+        "id": 107,
+        "nombre_sala": "sala 107",
+        "descripcion_sala": "likn",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:23:16.000000Z",
+        "updated_at": "2022-11-05T16:23:15.000000Z"
+    },
+    {
+        "id": 108,
+        "nombre_sala": "sala 108",
+        "descripcion_sala": "iojkmñl",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:23:45.000000Z",
+        "updated_at": "2022-11-05T16:23:46.000000Z"
+    },
+    {
+        "id": 109,
+        "nombre_sala": "sala 109",
+        "descripcion_sala": "jknlkm",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:24:24.000000Z",
+        "updated_at": "2022-11-05T16:24:26.000000Z"
+    },
+    {
+        "id": 110,
+        "nombre_sala": "sala 110",
+        "descripcion_sala": "iolhkjlñm",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:25:20.000000Z",
+        "updated_at": "2022-11-05T16:25:21.000000Z"
+    },
+    {
+        "id": 111,
+        "nombre_sala": "sala 111",
+        "descripcion_sala": "ioholjkñ",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:25:42.000000Z",
+        "updated_at": "2022-11-05T16:25:44.000000Z"
+    },
+    {
+        "id": 112,
+        "nombre_sala": "sala 112",
+        "descripcion_sala": "Sin descripcion",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:29:31.000000Z",
+        "updated_at": "2022-11-05T16:29:32.000000Z"
+    },
+    {
+        "id": 113,
+        "nombre_sala": "sala 113",
+        "descripcion_sala": "oñjñkl,",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:30:05.000000Z",
+        "updated_at": "2022-11-05T16:30:07.000000Z"
+    },
+    {
+        "id": 114,
+        "nombre_sala": "sala 114",
+        "descripcion_sala": "ñlmlm,",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:30:38.000000Z",
+        "updated_at": "2022-11-05T16:30:42.000000Z"
+    },
+    {
+        "id": 115,
+        "nombre_sala": "sala 115",
+        "descripcion_sala": "dvvdfs",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:31:03.000000Z",
+        "updated_at": "2022-11-05T16:31:04.000000Z"
+    },
+    {
+        "id": 116,
+        "nombre_sala": "sala 116",
+        "descripcion_sala": "lihknlñm",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:32:34.000000Z",
+        "updated_at": "2022-11-05T16:32:35.000000Z"
+    },
+    {
+        "id": 117,
+        "nombre_sala": "sala 117",
+        "descripcion_sala": "lijlkñkñ,.",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:32:58.000000Z",
+        "updated_at": "2022-11-05T16:32:59.000000Z"
+    },
+    {
+        "id": 118,
+        "nombre_sala": "sala 118",
+        "descripcion_sala": "ihjpoñjkl",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:33:24.000000Z",
+        "updated_at": "2022-11-05T16:33:26.000000Z"
+    },
+    {
+        "id": 119,
+        "nombre_sala": "sala 119",
+        "descripcion_sala": "ihlkjñkñ",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:33:49.000000Z",
+        "updated_at": "2022-11-05T16:33:53.000000Z"
+    },
+    {
+        "id": 120,
+        "nombre_sala": "sala 120",
+        "descripcion_sala": "jhlk.-k",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:34:10.000000Z",
+        "updated_at": "2022-11-05T16:34:11.000000Z"
+    },
+    {
+        "id": 121,
+        "nombre_sala": "sala 121",
+        "descripcion_sala": "lihkjñ",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:34:31.000000Z",
+        "updated_at": "2022-11-05T16:34:32.000000Z"
+    },
+    {
+        "id": 122,
+        "nombre_sala": "sala 122",
+        "descripcion_sala": "lihkjoñk",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:35:11.000000Z",
+        "updated_at": "2022-11-05T16:35:12.000000Z"
+    },
+    {
+        "id": 123,
+        "nombre_sala": "sala 123",
+        "descripcion_sala": "sfdsgds",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:35:22.000000Z",
+        "updated_at": "2022-11-05T16:35:16.000000Z"
+    },
+    {
+        "id": 124,
+        "nombre_sala": "sala 124",
+        "descripcion_sala": "cdzcvdc",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:36:17.000000Z",
+        "updated_at": "2022-11-05T16:36:19.000000Z"
+    },
+    {
+        "id": 125,
+        "nombre_sala": "sala 125",
+        "descripcion_sala": "dawsd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:36:26.000000Z",
+        "updated_at": "2022-11-05T16:36:21.000000Z"
+    },
+    {
+        "id": 126,
+        "nombre_sala": "sala 126",
+        "descripcion_sala": "dfdsvfv",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:37:03.000000Z",
+        "updated_at": "2022-11-05T16:37:04.000000Z"
+    },
+    {
+        "id": 127,
+        "nombre_sala": "sala 127",
+        "descripcion_sala": "grdfgdf",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:37:08.000000Z",
+        "updated_at": "2022-11-05T16:37:07.000000Z"
+    },
+    {
+        "id": 128,
+        "nombre_sala": "sala 128",
+        "descripcion_sala": "egfrgf",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 1,
+        "created_at": "2022-11-05T16:38:00.000000Z",
+        "updated_at": "2022-11-05T16:38:01.000000Z"
+    },
+    {
+        "id": 201,
+        "nombre_sala": "sala 201",
+        "descripcion_sala": "fdxg",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-05T22:04:28.000000Z",
+        "updated_at": "2022-11-05T22:04:20.000000Z"
+    },
+    {
+        "id": 202,
+        "nombre_sala": "sala 202",
+        "descripcion_sala": "lknkl",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T09:13:48.000000Z",
+        "updated_at": "2020-11-06T09:13:49.000000Z"
+    },
+    {
+        "id": 203,
+        "nombre_sala": "sala 203",
+        "descripcion_sala": "jhlñijñl",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T09:13:55.000000Z",
+        "updated_at": "2022-11-06T08:13:54.000000Z"
+    },
+    {
+        "id": 204,
+        "nombre_sala": "sala 204",
+        "descripcion_sala": "ojññjl",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T09:15:09.000000Z",
+        "updated_at": "2022-11-06T09:15:10.000000Z"
+    },
+    {
+        "id": 205,
+        "nombre_sala": "sala 205",
+        "descripcion_sala": "ihljjm",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:20:08.000000Z",
+        "updated_at": "2022-11-06T13:20:09.000000Z"
+    },
+    {
+        "id": 206,
+        "nombre_sala": "sala 206",
+        "descripcion_sala": "ilhijljopkl",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:20:40.000000Z",
+        "updated_at": "2022-11-06T13:20:42.000000Z"
+    },
+    {
+        "id": 207,
+        "nombre_sala": "sala 207",
+        "descripcion_sala": "ioiii",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:21:09.000000Z",
+        "updated_at": "2022-11-06T13:21:11.000000Z"
+    },
+    {
+        "id": 208,
+        "nombre_sala": "sala 208",
+        "descripcion_sala": "oihoijlk",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:21:35.000000Z",
+        "updated_at": "2022-11-06T13:21:36.000000Z"
+    },
+    {
+        "id": 209,
+        "nombre_sala": "sala 209",
+        "descripcion_sala": "gdfgh",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:21:41.000000Z",
+        "updated_at": "2022-11-06T13:21:39.000000Z"
+    },
+    {
+        "id": 210,
+        "nombre_sala": "sala 210",
+        "descripcion_sala": "dgrdfh",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:22:21.000000Z",
+        "updated_at": "2022-11-06T13:22:22.000000Z"
+    },
+    {
+        "id": 211,
+        "nombre_sala": "sala 211",
+        "descripcion_sala": "rgdfn",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:22:26.000000Z",
+        "updated_at": "2022-11-06T13:22:24.000000Z"
+    },
+    {
+        "id": 212,
+        "nombre_sala": "sala 212",
+        "descripcion_sala": "fgfdb",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:22:55.000000Z",
+        "updated_at": "2022-10-06T11:22:56.000000Z"
+    },
+    {
+        "id": 213,
+        "nombre_sala": "sala 213",
+        "descripcion_sala": "rfgdfhtgf",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2021-11-06T13:23:02.000000Z",
+        "updated_at": "2022-11-06T13:22:59.000000Z"
+    },
+    {
+        "id": 214,
+        "nombre_sala": "sala 214",
+        "descripcion_sala": "dgfdhbgf",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:23:45.000000Z",
+        "updated_at": "2022-11-06T13:23:47.000000Z"
+    },
+    {
+        "id": 215,
+        "nombre_sala": "sala 215",
+        "descripcion_sala": "rhffgj",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:23:50.000000Z",
+        "updated_at": "2022-11-06T13:23:49.000000Z"
+    },
+    {
+        "id": 216,
+        "nombre_sala": "sala 216",
+        "descripcion_sala": "rghdfh",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:24:29.000000Z",
+        "updated_at": "2022-11-06T13:24:30.000000Z"
+    },
+    {
+        "id": 217,
+        "nombre_sala": "sala 216",
+        "descripcion_sala": "cvbfg",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:24:37.000000Z",
+        "updated_at": "2022-11-06T13:24:36.000000Z"
+    },
+    {
+        "id": 218,
+        "nombre_sala": "sala 218",
+        "descripcion_sala": "szfds",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:25:22.000000Z",
+        "updated_at": "2022-11-06T13:25:25.000000Z"
+    },
+    {
+        "id": 219,
+        "nombre_sala": "sala 219",
+        "descripcion_sala": "dgdfrsgr",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:25:29.000000Z",
+        "updated_at": "2022-11-06T13:25:28.000000Z"
+    },
+    {
+        "id": 220,
+        "nombre_sala": "sala 220",
+        "descripcion_sala": "dgrdfh",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:26:14.000000Z",
+        "updated_at": "2022-11-06T13:26:16.000000Z"
+    },
+    {
+        "id": 221,
+        "nombre_sala": "sala 221",
+        "descripcion_sala": "fcd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:26:19.000000Z",
+        "updated_at": "2022-11-06T13:26:18.000000Z"
+    },
+    {
+        "id": 222,
+        "nombre_sala": "sala 222",
+        "descripcion_sala": "dvd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:26:46.000000Z",
+        "updated_at": "2022-11-06T13:26:47.000000Z"
+    },
+    {
+        "id": 223,
+        "nombre_sala": "sala 223",
+        "descripcion_sala": "scds",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:26:54.000000Z",
+        "updated_at": "2022-11-05T13:26:49.000000Z"
+    },
+    {
+        "id": 224,
+        "nombre_sala": "sala 224",
+        "descripcion_sala": "dffv",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:27:21.000000Z",
+        "updated_at": "2022-11-05T13:27:22.000000Z"
+    },
+    {
+        "id": 225,
+        "nombre_sala": "sala 225",
+        "descripcion_sala": "dzvd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:27:26.000000Z",
+        "updated_at": "2022-11-06T13:27:24.000000Z"
+    },
+    {
+        "id": 226,
+        "nombre_sala": "sala 226",
+        "descripcion_sala": "klhl",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:28:17.000000Z",
+        "updated_at": "2022-11-06T13:28:18.000000Z"
+    },
+    {
+        "id": 227,
+        "nombre_sala": "sala 227",
+        "descripcion_sala": "sfdsv",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:29:20.000000Z",
+        "updated_at": "2022-11-06T13:29:16.000000Z"
+    },
+    {
+        "id": 228,
+        "nombre_sala": "sala 228",
+        "descripcion_sala": "zcvdvs",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 2,
+        "created_at": "2022-11-06T13:30:07.000000Z",
+        "updated_at": "2022-11-06T13:30:08.000000Z"
+    },
+    {
+        "id": 301,
+        "nombre_sala": "sala 301",
+        "descripcion_sala": "cdv",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:31:29.000000Z",
+        "updated_at": "2022-11-06T13:31:28.000000Z"
+    },
+    {
+        "id": 302,
+        "nombre_sala": "sala 302",
+        "descripcion_sala": "dvdf",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:32:03.000000Z",
+        "updated_at": "2022-11-06T13:32:04.000000Z"
+    },
+    {
+        "id": 303,
+        "nombre_sala": "sala 303",
+        "descripcion_sala": "sad",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:32:08.000000Z",
+        "updated_at": "2022-11-06T13:32:07.000000Z"
+    },
+    {
+        "id": 304,
+        "nombre_sala": "sala 304",
+        "descripcion_sala": "fasdds",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:32:54.000000Z",
+        "updated_at": "2022-11-06T13:32:56.000000Z"
+    },
+    {
+        "id": 305,
+        "nombre_sala": "sala 305",
+        "descripcion_sala": "fsdfgr",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:32:59.000000Z",
+        "updated_at": "2022-11-06T13:32:58.000000Z"
+    },
+    {
+        "id": 306,
+        "nombre_sala": "sala 306",
+        "descripcion_sala": "fdbg",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:33:27.000000Z",
+        "updated_at": "2022-11-06T13:33:29.000000Z"
+    },
+    {
+        "id": 307,
+        "nombre_sala": "sala 307",
+        "descripcion_sala": "awd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:33:31.000000Z",
+        "updated_at": "2022-11-06T13:33:30.000000Z"
+    },
+    {
+        "id": 308,
+        "nombre_sala": "sala 308",
+        "descripcion_sala": "fdsf",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:34:06.000000Z",
+        "updated_at": "2022-11-06T13:34:08.000000Z"
+    },
+    {
+        "id": 309,
+        "nombre_sala": "sala 309",
+        "descripcion_sala": "dw",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:34:11.000000Z",
+        "updated_at": "2022-11-06T13:34:10.000000Z"
+    },
+    {
+        "id": 310,
+        "nombre_sala": "sala 310",
+        "descripcion_sala": "dsfds",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:35:01.000000Z",
+        "updated_at": "2022-11-06T13:35:02.000000Z"
+    },
+    {
+        "id": 311,
+        "nombre_sala": "sala 311",
+        "descripcion_sala": "fwd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:35:04.000000Z",
+        "updated_at": "2022-11-06T13:35:03.000000Z"
+    },
+    {
+        "id": 312,
+        "nombre_sala": "sala 312",
+        "descripcion_sala": "afwe",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:35:27.000000Z",
+        "updated_at": "2022-11-06T13:35:28.000000Z"
+    },
+    {
+        "id": 313,
+        "nombre_sala": "sala 313",
+        "descripcion_sala": "qwd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:35:30.000000Z",
+        "updated_at": "2022-11-06T13:35:29.000000Z"
+    },
+    {
+        "id": 314,
+        "nombre_sala": "sala 314",
+        "descripcion_sala": "ferwf",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:36:18.000000Z",
+        "updated_at": "2022-11-06T13:36:19.000000Z"
+    },
+    {
+        "id": 315,
+        "nombre_sala": "sala 315",
+        "descripcion_sala": "dfwe",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:36:21.000000Z",
+        "updated_at": "2022-11-06T13:36:20.000000Z"
+    },
+    {
+        "id": 316,
+        "nombre_sala": "sala 316",
+        "descripcion_sala": "efrw",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:36:44.000000Z",
+        "updated_at": "2022-11-06T13:36:45.000000Z"
+    },
+    {
+        "id": 317,
+        "nombre_sala": "sala 317",
+        "descripcion_sala": "ef",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:36:47.000000Z",
+        "updated_at": "2022-11-06T13:36:47.000000Z"
+    },
+    {
+        "id": 318,
+        "nombre_sala": "sala 318",
+        "descripcion_sala": "effr",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:37:11.000000Z",
+        "updated_at": "2022-11-06T13:37:13.000000Z"
+    },
+    {
+        "id": 319,
+        "nombre_sala": "sala 319",
+        "descripcion_sala": "sfcv",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:37:15.000000Z",
+        "updated_at": "2022-11-06T13:37:14.000000Z"
+    },
+    {
+        "id": 320,
+        "nombre_sala": "sala 320",
+        "descripcion_sala": "fersg",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:37:43.000000Z",
+        "updated_at": "2022-11-06T13:37:45.000000Z"
+    },
+    {
+        "id": 321,
+        "nombre_sala": "sala 321",
+        "descripcion_sala": "dfd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:38:05.000000Z",
+        "updated_at": "2022-11-06T13:38:06.000000Z"
+    },
+    {
+        "id": 322,
+        "nombre_sala": "sala 322",
+        "descripcion_sala": "efrv",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:38:30.000000Z",
+        "updated_at": "2022-11-06T13:38:31.000000Z"
+    },
+    {
+        "id": 323,
+        "nombre_sala": "sala 323",
+        "descripcion_sala": "df",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:38:33.000000Z",
+        "updated_at": "2022-11-06T13:38:32.000000Z"
+    },
+    {
+        "id": 324,
+        "nombre_sala": "sala 324",
+        "descripcion_sala": "vsdfv",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:38:45.000000Z",
+        "updated_at": "2022-11-06T13:38:46.000000Z"
+    },
+    {
+        "id": 325,
+        "nombre_sala": "sala 325",
+        "descripcion_sala": "sadc",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:39:24.000000Z",
+        "updated_at": "2022-11-06T13:39:25.000000Z"
+    },
+    {
+        "id": 326,
+        "nombre_sala": "sala 326",
+        "descripcion_sala": "scdsv",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:39:33.000000Z",
+        "updated_at": "2022-11-06T13:39:34.000000Z"
+    },
+    {
+        "id": 327,
+        "nombre_sala": "sala 327",
+        "descripcion_sala": "dfdsg",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:39:55.000000Z",
+        "updated_at": "2022-11-06T13:39:57.000000Z"
+    },
+    {
+        "id": 328,
+        "nombre_sala": "sala 328",
+        "descripcion_sala": "fawd",
+        "precio_sala": "1",
+        "activo": "Disponible",
+        "piso": 3,
+        "created_at": "2022-11-06T13:39:59.000000Z",
+        "updated_at": "2022-11-06T13:39:58.000000Z"
+    }
+]

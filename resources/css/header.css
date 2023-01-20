@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    /* border: 1px solid black; */
+    padding: 20px 70px 20px 20px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    height: 60px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 5%, rgba(0, 0, 0, 0) 95%) ;
+    justify-content: space-between;
+}
+
+.content-closeSesion {
+    position: fixed;
+    left: 10px;
+    top: -100px;
+    background: white;
+    color: black;
+    padding: 3px 5px;
+    border-radius: 5px;
+    transition: .2s;
+    display: none;
+}
+
+.content-closeSesion-v {
+    position: fixed;
+    left: 8px;
+    background: white;
+    color: black;
+    padding: 3px 5px;
+    border: 2px solid rgba(255, 255, 255, 0.548);
+    border-radius: 5px;
+    transition: .2s;
+    display: block;
+    top: 75px;  
+
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.header li {
+    margin: 0 15px;
+    color: white;
+}
+
+.header li a {
+    color: white;
+}
+
+
+.image-icon-user>img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 25px;
+}
+
+
+@media (width <=650px) {
+
+    .header{
+        padding: 0px 0 0 10px;
+    }
+    .image-icon-user {
+        margin-top: 10px;
+    }
+
+    .image-icon-user>img {
+        width: 53px;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin-top: 10px;
+    }
+
+    .content-closeSesion-v {
+        position: fixed;
+        left: 82px;
+        background: white;
+        color: black;
+        padding: 3px 5px;
+        border: 2px solid rgba(255, 255, 255, 0.548);
+        border-radius: 5px;
+        transition: .2s;
+        display: block;
+        top: 21px;
+    }
+}

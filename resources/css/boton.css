@@ -1,0 +1,50 @@
+#contenedorBoton {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: #d62255;
+    border: none;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    border-radius: none;
+    line-height: 0px;
+    transition: all .7s ease;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button0 {
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    border-radius: 20px;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    transition: all .5s ease;
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.button:hover+.button0 {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-color: #000000;
+    transition: all .5s ease;
+}
