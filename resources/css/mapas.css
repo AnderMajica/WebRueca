@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*---------------------------------------------*/
+.pagado {
+    fill: #00ff00 !important;
+}
+
+/* CONTENEDOR */
+.headerMovil {
+    display: none;
+}
+
+.seccionMapas {
+    width: 100%;
+    transition: .5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(142deg, #1b5ca7 10%, #d52b5c 39%, #10001d 90%);
+    /* background-image: url(../assets/p.png); */
+    background-position: 10%;
+}
+
+.seccionMapas .container2 {
+    margin: 0 auto;
+    display: flex;
+}
+
+.containerMapaGrande {
+    width: 70%;
+    height: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 3px solid rgb(0, 0, 0);
+}
+
+.paddingBotton {
+    padding-bottom: 250px;
+}
+
+.mapaGrandeSVG {
+    height: 100vh;
+}
+
+.pisoUnoSVG {
+    margin-top: 5px;
+}
+
+/*---------------------------------------------*/
+
+/* MAPA PEQUEÑO CONTAINER DERECHA */
+.containerMapaPequeno {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    max-width: 420px;
+    height: 100vh;
+    position: relative;
+    margin-top: 20px;
+    z-index: 0;
+}
+
+
+.mapasPequenos {
+    width: 250px;
+    position: relative;
+}
+
+
+.mapaPequenoSVG {
+    width: 100%;
+}
+
+.mapaPequenoPiso2_SVG {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
+
+.mapaPequenoPiso3_SVG {
+    position: absolute;
+    top: -17px;
+    left: 10px;
+}
+
+/*---------------------------------------------*/
+
+/* BOTONES */
+
+
+.botonesPisos {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.ocupado {
+    fill: #6b6b6b !important;
+}
+
+.ocupado:hover {
+    fill: #5c5c5c !important;
+}
+
+
+.salaComprada {
+    fill: #48ff00 !important;
+}
+
+.salaComprada:hover {
+    fill: #39c900 !important;
+}
+
+.j {
+    margin: 60px;
+}
+
+.boton {
+    border: none;
+    margin: 10px;
+    border-radius: 20px;
+    width: 60%;
+    font-weight: 600;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.displayFlex {
+    width: 100%;
+    transition: .5s;
+    position: fixed;
+    left: 0px;
+    bottom: 50px;
+    max-width: 160px;
+    
+}
+
+.activo {
+    background-color: white;
+    font-size: 16px;
+} 
+
+.activoRed{
+    background-color: rgb(255, 25, 63);
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.404) 0px 3px 8px;
+}
+
+.activoGren{
+    background-color: rgb(46, 230, 0);
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.404) 0px 3px 8px;
+}
+
+.activoBlue{
+    background-color: #00aeff;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.404) 0px 3px 8px;
+}
+
+
+
+/*---------------------------------------------*/
+
+/* LOGO */
+.logo {
+    width: 70%;
+}
+
+/*---------------------------------------------*/
+
+/* OCULTAR Y MOSTRAR LOS MAPAS  (JAVASCRIPT) */
+.piso2 {
+    opacity: 1;
+    transition: .3s;
+}
+
+.piso3 {
+    opacity: 1;
+    transition: .3s;
+}
+
+.none {
+    opacity: 0;
+    display: none;
+    /* transition: .5s; */
+}
+
+.noneMapa {
+    display: none;
+}
+
+
+
+/*---------------------------------------------*/
+/* VERSION MOVIL */
+
+@media (max-width:1000px) {
+    .seccionMapas .container2 {
+        padding-top: 30px;
+    }
+
+
+
+    .headerMovil {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        top: 70px;
+    }
+
+    .botonesHeaderMovil {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .mapasPequenos {
+        margin-top: 100px;
+        width: 100px;
+        opacity: .8;
+    }
+
+    .botonesHeaderMovil .boton {
+        margin: 0 7px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.575);
+        border-radius: 40px;
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+        width: 110px;
+        height: 27px;
+    }
+
+    .seccionMapas .container2 {
+        flex-direction: column-reverse;
+    }
+
+    .containerMapaGrande {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        border: none;
+    }
+
+    .containerMapaPequeno .boton,
+    .logo {
+        display: none;
+
+    }
+
+    .containerMapaPequeno {
+        width: auto;
+        position: fixed;
+        top: 150px;
+        height: 0;
+        left: 10px;
+    }
+
+    .pisoUnoSVG {
+        margin: 0;
+    }
+
+    .mapaGrandeSVG {
+        width: 150%;
+        height: 100vh;
+    }
+
+
+    .paddingBottom {
+        padding-bottom: 250px;
+    }
+}
+
+@media (max-height:500px) {
+    .seccionMapas .container2 {
+        height: 200vh;
+    }
+
+
+}

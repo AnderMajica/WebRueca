@@ -1,0 +1,294 @@
+.tablaCompra {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 0%;
+    transition: .3s;
+    height: 50vh;
+    padding: 0px 0px 75px 0px;
+    background: linear-gradient(#ffffff, #ffffff);
+    backdrop-filter: blur(10px);
+    z-index: 200;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+ 
+.ocultarTablaPagar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    border-bottom: 1px solid rgba(189, 157, 157, 0);
+    top: 2px;
+    left: 2px;
+    z-index: 250;
+    font-size: 18px;
+    padding: 0px 20px 0px 0;
+    transition: .3s;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.oTabla{
+    padding: 5px 7px 0 7px;
+    margin-top: -3px;
+    border-radius: 100%;
+    transition: .3s;
+   
+} 
+.oTabla:hover{
+    background-color: rgb(255, 214, 214);
+}
+
+
+.MostrartablaCompra {
+    right: 0;
+    width: 30%;
+    transition: .3s;
+}
+
+th {
+    /* border-bottom: 1px solid rgb(212, 212, 212); */
+    /* background-color: #000000; */
+    transition: 1s;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    color: rgb(0, 0, 0);
+}
+
+td {
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------------------------------*/
+/* CONTAINER PAGAR */
+.reserva{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    z-index: 500;
+}
+
+.containerPadrePagar {
+    padding-top: 25px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.containerPagar {
+    transition: 1s;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #00000000;
+    overflow-y: scroll;
+    
+}
+
+.tablaPagar {
+    transition: 1s;
+    width: 100%;
+    text-align: center;
+}
+
+.nSala {
+    color: rgb(66, 66, 66);
+    font-weight: 600;
+}
+
+.nPiso {
+    color: rgb(66, 66, 66);
+}
+
+.precio {
+    color: rgb(66, 66, 66);
+}
+
+.botonPagarr {
+    border: none;
+    width: 100%;
+    height: 30px;
+    border: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* position: absolute; */
+    border-radius: 20px;
+    bottom: 5px;
+    background-color: #340049;
+    margin-top: 10px;
+}
+
+.editar {
+    color: rgb(0, 197, 89);
+    transition: .2s;
+}
+
+.editar:hover {
+    background-color: rgb(0, 197, 89);
+    transition: .2s;
+    color: white;
+}
+
+tr {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tr2:hover {
+    background-color: rgb(219, 219, 223);
+}
+
+.borrar:hover tr {
+    background-color: rgb(255, 191, 207);
+}
+
+.tablaPagar {
+    border-collapse: collapse;
+}
+
+.borrar {
+    color: rgb(255, 38, 92);
+    font-size: 25px;
+    transition: .2s;
+    height: 100%;
+}
+
+.borrar:hover {
+    background-color: rgb(255, 38, 92);
+    color: white;
+    transition: .2s;
+}
+
+
+.divFrecuencia{
+    display: flex;
+    
+    /* border: 1px solid rgb(0, 110, 255); */
+    
+}
+
+.divTotal .pFrecuencia{
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+.pagarMensual,
+.pagarTrimestral{
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 10px;
+    padding: 0 7px;
+    height: 25px;
+    margin-right: 5px;
+    
+    
+}
+
+.pagarMensualActivo,
+.pagarTrimestralActivo{
+    border: 1px solid black;
+    color: white;
+    background-color: #000000;
+}
+
+.checkFrecuencia{
+    color: rgb(0, 216, 0);
+}
+
+.divTotal {
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    padding: 0px;
+    border-top: 1px solid rgb(221, 221, 221);
+    height: auto;
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    /* border-bottom: 2px solid white; */
+
+}
+
+.total {
+    margin-top: 5px;
+
+    position: absolute;
+    bottom:  42px;
+    right: 40px;
+    font-weight: 600;
+    color: #1d1d1d;
+    font-size: 22px;
+}
+
+/* .timer {
+    position: absolute;
+    width: auto;
+} */
+
+@media (max-width: 1440px) {
+    .timer {
+        
+        top: 0;
+        font-weight: 600;
+        color: #d66161;
+        font-size: 16px;
+        position: absolute;
+        right: 15px;
+        top: 0;
+    }
+}
+
+@media (max-width: 1060px) {
+    .tablaCompra {
+        width: 100%;
+        height: 100vh;
+        z-index: 3500;
+        font-size: 2em;
+    }
+
+    .timer {
+        width: 35%;
+    }
+
+    .nSala,
+    .nPiso,
+    .precio,
+    .borrar,
+    .ocultarTablaPagar,
+    .timer,
+    .total {
+        font-size: 1em;
+        color: white;
+    }
+
+    .botonPagarr {
+        height: 4em;
+    }
+
+@media (max-width: 600px) {
+
+    .nSala,
+    .nPiso,
+    .precio,
+    .borrar,
+    .ocultarTablaPagar,
+    .timer,
+    .total {
+        font-size: 0.8em;
+    }
+
+    .tablaCompra {
+        font-size: 1.2em;
+    }
+
+    .botonPagarr {
+        height: 2em;
+    }
+}
+}

@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "start": "start npm run server && start npm run dev",
+        "server": "php artisan serve"
+    },
+    "devDependencies": {
+        "laravel-vite-plugin": "^0.7.0",
+        "lodash": "^4.17.19",
+        "nodemon": "^2.0.20",
+        "postcss": "^8.1.14",
+        "vite": "^3.2.3"
+    },
+    "dependencies": {
+        "@emotion/core": "^11.0.0",
+        "@emotion/styled": "^11.10.5",
+        "@paypal/react-paypal-js": "^7.8.1",
+        "@vitejs/plugin-react": "^2.2.0",
+        "axios": "^1.2.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsx-runtime": "^1.2.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hot-toast": "^2.4.0",
+        "react-icons": "^4.6.0",
+        "react-router": "^6.4.3",
+        "react-router-dom": "^6.4.3",
+        "request": "^2.88.2"
+    }
+}

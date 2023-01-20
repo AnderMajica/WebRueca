@@ -1,0 +1,581 @@
+.modal {
+    position: fixed;
+    display: flex;
+    transition: 1.2s;
+    z-index: 3001;
+    backdrop-filter: blur(4px);
+    width: 30%;
+    height: 45vh;
+    bottom: -100%;
+    background: linear-gradient(#00000000, rgba(20, 0, 15, 0.986));
+    backdrop-filter: blur(14px);
+    padding: 0 0px;
+    opacity: 0;
+}
+
+.descripcionMapa {
+    color: white;
+    padding: 0 20px;
+    margin-top: 0px;
+    transition: 1s;
+}
+
+
+.divContadorCompra {
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    top: 20px;
+    z-index: 200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnMostrarTabla {
+    font-size: 30px;
+    color: #ffffff;
+    background-color: rgba(245, 222, 179, 0);
+    border: none;
+}
+
+.contadorCompra {
+    color: white;
+}
+
+.modalVisible {
+    transition: .5s;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    opacity: 1;
+}
+
+.containerModal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerModalHijo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.volver {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    background-color: #360055;
+    backdrop-filter: blur(50px);
+    width: 35px;
+    padding: 7px 7px 0 7px;
+    border-radius: 0 0 0px 0;
+    cursor: pointer;
+}
+
+.volver2 {
+    display: none;
+}
+
+.volver img {
+    width: 100%;
+}
+
+/* DATOS DEL MODAL */
+.headerModal {
+
+    padding: 20px 20px 0 20px;
+    margin-bottom: 10px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcionModal {
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    overflow-y: auto;
+    align-items: flex-start;
+    border-top: 1px solid #d52b5b00;
+    
+
+}
+
+.disponibilidad {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.numPiso h1 {
+    color: #ffffff;
+    display: inline;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    transition: .3s;
+    margin-right: 10px;
+}
+
+.piso{
+ font-size: 18px;
+ font-weight: 600;
+ letter-spacing: 1px;
+ color: rgb(224, 224, 224);
+}
+
+/* PRECIOS */
+
+.seleccione {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 94%);
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.pFrecuencias {
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #dbdbdb;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+@keyframes shake-horizontal {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+}
+
+
+.noneMes1 {
+    width: 10px;
+    overflow: hidden;
+    transition: .3s;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 62px;
+    border: 1px solid red;
+}
+
+
+
+.nonePrecio {
+    /* font-size: 0; */
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .3s;
+    font-weight: 500;
+}
+
+
+.preciosModal {
+    border-radius: 20px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* justify-content: space-between; */
+    width: auto;
+    height: 100%;
+    position: relative;
+    transition: .5s;
+}
+
+.preciosModalVacio{
+    width: 0;
+}
+
+.precioMensual{
+    color: rgb(0, 0, 0) !important;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: #ffffffd7;
+    width: auto;
+    padding: 0 20px;
+    border-radius: 40px;
+}
+
+.pMensual{
+    font-size: 18px;
+}
+
+
+.precioTrimestral{
+    color: rgb(255, 255, 255) !important;
+    font-size: 14px;
+    background-color: #00000000;
+    /* padding: 0 20px; */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.pTrimestral{
+    font-size: 16px;
+}
+
+
+
+
+
+.precioBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    
+    /* justif-content: space-betw; */
+    /* width: auto; */
+    /* transition: 1s; */
+
+}
+
+
+.precioBtnNone{
+    display: none;
+}
+.modal h2 {
+    color: #c42222;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.precio1M,
+.precio2M {
+    font-weight: 400;
+    transition: .6s;
+    font-size: 16px;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+
+}
+
+.precio1,
+.precio2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    transition: .3s;
+    opacity: 1;
+
+}
+
+
+
+.pSpan {
+    font-weight: 300;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff00;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+  
+    
+}
+
+.checkbox {
+    margin-right: 10px;
+    display: none;
+}
+
+.modalAbvertencia {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin-bottom: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    padding: 0px 18px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    /* transition: 1s; */
+    width: auto;
+    min-width: 30px;
+    height: 37px;
+    -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+
+}
+
+.comprar:hover {
+    background-color: #3f0132;
+}
+
+.botonAgregar::before {
+    content: "AGREGAR A LA COMPRA";
+}
+
+.botonAgregar {
+    border: none;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    left: 20px;
+    height: 40px;
+    border: 20px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    background-color: #d52b5c;
+    position: absolute;
+    bottom: 10px;
+}
+
+.botonAgregarNone {
+    display: none;
+}
+
+.botonAgregar:hover {
+    background-color: #b11e47;
+}
+
+.check {
+    display: none;
+}
+
+.checkVisible {
+    color: #23cf00;
+    font-size: 25px;
+    margin-left: 15px;
+    display: inline-block;
+    
+}
+
+:root {
+    /* variables */
+    --first-color: #d52b5b;
+    --first-color-alt: #bb244f;
+    --text-color: hsl(305, 100%, 90%);
+}
+
+.button__loader {
+    border: none;
+    outline: none;
+    position: absolute;
+    padding: 1.25rem 2.5rem;
+    background-color: var(--first-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    overflow: hidden;
+    /* cursor: wait; */
+}
+
+.button__loader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    background: repeating-linear-gradient(60deg,
+            transparent,
+            transparent 0.75rem,
+            var(--first-color-alt) 0.75rem,
+            var(--first-color-alt) 1.5rem);
+    animation: load 1s infinite linear;
+}
+
+.button__text {
+    position: relative;
+}
+
+/* Loading button animation */
+@keyframes load {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-1.75rem);
+    }
+}
+
+
+
+
+.Modal_usuarioNoLogueadoVisible{
+    width: 100%;
+    height: 100%;
+    background-color: #00000075;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal_usuarioNoLogueado{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1060px) {
+
+    .modal {
+        width: 100%;
+        transition: 1.5s;
+        position: fixed;
+        bottom: -100%;
+        height: 280px;
+        z-index: 3002;
+        justify-content: flex-start;
+        align-items: flex-start;
+        overflow-y: auto;
+        background-color: #29000aa9;
+    }
+
+    .containerModalHijo {
+        height: 280px;
+        overflow: scroll;
+    }
+    
+    .descripcionModal {
+        width: 100%;
+        overflow: scroll;
+        margin-bottom: 60px;
+    }
+
+    .preciosModal {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .precioBtn {
+        margin-top: 0px;
+    }
+
+    .pSpan {
+        font-size: 18px;
+    }
+
+    .modalAbvertencia {
+        font-size: 18px;
+    }
+
+    .modalVisible {
+        bottom: 0px;
+        transition: .5s;
+    }
+
+    .containerModal {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        transition: .5s;
+        overflow: 100%;
+    }
+
+    .volver {
+        right: 0 !important;
+        top: 0;
+        display: none;
+    }
+
+    .volver2 {
+        display: block;
+        position: fixed;
+        width: 34px;
+        bottom: 246px;
+        right: -40px;
+        background-color: hsl(347, 100%, 61%);
+        backdrop-filter: blur(4px);
+        padding: 7px 7px 0 7px;
+        border-radius: 0 0 0px 0;
+        z-index: 3003;
+        transition: .5s;
+    }
+
+    .volver2V {
+        /* display: block; */
+        right: 0px;
+    }
+
+    .volver2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .botonAgregar {
+        height: 40px;
+
+    }
+}

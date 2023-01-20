@@ -1,0 +1,4 @@
+# POST http://localhost:3002/create-payment
+
+# POST http://localhost:3002/create-product
+POST http://localhost:3002/create-plan
